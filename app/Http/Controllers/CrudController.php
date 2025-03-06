@@ -26,7 +26,7 @@ class CrudController extends Controller
      */
     public function store(Request $request)
     {
-        //User::create($request->all());
+        
         $post = new User([
             'name' => $request->input('first_name'),
             'email' => $request->input('last_name'),            
@@ -72,4 +72,10 @@ class CrudController extends Controller
         $user->delete();
         return redirect()->route('crud_get')->with('success', 'Eliminado con exito!');
     }
+
+    public function cancel()
+    {
+        return redirect()->route('crud_get');
+    }
+
 }

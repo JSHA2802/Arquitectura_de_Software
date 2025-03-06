@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CrudController;
+use App\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,6 +23,7 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
+
 Route::controller(CrudController::class)->group( function(){
     Route::get('crudget',  'index')->name('crud_get');
     Route::get('crudcreate','create')->name('crud_create');
@@ -30,6 +32,4 @@ Route::controller(CrudController::class)->group( function(){
     Route::post('crudupdate/{id}', 'update')->name('crud_update');
     Route::get('cruddelete/{id}','destroy')->name('crud_delete');
     Route::get('cancel','cancel')->name('cancel');
-
 });
-

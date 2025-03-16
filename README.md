@@ -3,10 +3,9 @@
 <p align="center">
 <pre>
     se crear una app en laravel que tiene un sistema de login/registro de usuario que realzia las operacion basicas de crud
-
     para acceder al proyecto se debe ejecutar los siguientes pasos
-    
 </pre>
+</br>
 <ol>
         <li>git clone </li>
         <li>abrir la carpeta jhon_proyect </li>

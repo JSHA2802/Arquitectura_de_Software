@@ -5,7 +5,9 @@
     se crear una app en laravel que tiene un sistema de login/registro de usuario que realzia las operacion basicas de crud
 
     para acceder al proyecto se debe ejecutar los siguientes pasos
-    <ol>
+    
+</pre>
+<ol>
         <li>git clone </li>
         <li>abrir la carpeta jhon_proyect </li>
         <li>ejecutar en una consola composer install</li>
@@ -15,7 +17,6 @@
         <li>en una consola que sera el entorno back ejecutar php artisan serve/li>
         <li> leugo se podra visualziar en el navegador el sistema en funcionamiento/li>
     </ol>
-</pre>
 </p>
 
 

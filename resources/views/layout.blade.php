@@ -12,28 +12,27 @@
     <!--datatables with jstable 
     <link rel="stylesheet" type="text/css" href="library/jstable.css" />
     <script src="library/jstable.min.js" type="text/javascript"></script>-->
-
+    <!--@viteReactRefresh-->
+    
     @vite([
-        'resources/css/app.css',
-        'resources/css/mystyle.css',
-        'resources/js/index.js',
-        
+        'resources/sass/app.scss',
+        'resources/js/src/main.js',
     ])
+   
 </head>
 <body>
    
+    
     <div class="container">
-
-        
         @yield('crud')
-        
-        
-        
-    </div>
-
-    <div class="card-footer col-md-12">
+        <div class="card-footer col-md-12">
         <p><strong>Development by Sebastian Moreno Castañeda</strong></p>
     </div>
+    
+    
+    
+   
+    
     
 </body>
 </html>

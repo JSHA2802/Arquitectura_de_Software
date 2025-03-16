@@ -15,6 +15,8 @@ class CrudController extends Controller
     {
         $user= User::orderBy('id','desc')->paginate(5);
         return view('crud', compact('user'));
+
+        
     }
 
     public function create()

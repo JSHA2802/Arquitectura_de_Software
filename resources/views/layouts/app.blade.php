@@ -15,7 +15,7 @@
 
     <!-- Scripts -->
     @viteReactRefresh
-    @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+    @vite(['resources/sass/app.scss', 'resources/js/src/app.jsx'])
 </head>
 <body>
     <div id="app">
@@ -49,8 +49,9 @@
                                     <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
                                 </li>
                             @endif
-                            <li class="nav-item">
+                                <li class="nav-item">
                                     <a class="nav-link" href="{{ route('crud_get') }}">{{ __('USUARIOS') }}</a>
+                                    
                                 </li>
                         @else
                             <li class="nav-item dropdown">

@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CrudController;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\CrudsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -33,3 +34,6 @@ Route::controller(CrudController::class)->group( function(){
     Route::get('cruddelete/{id}','destroy')->name('crud_delete');
     Route::get('cancel','cancel')->name('cancel');
 });
+
+
+//Route::get('/cruds',[CrudsController::class,'mensaje'])->name('cruds');

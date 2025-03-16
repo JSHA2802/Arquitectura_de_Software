@@ -64,10 +64,6 @@
                                            ELIMINAR
                                         </button>
 
-                                        <button type="button" class="btn btn-secondary"  data-bs-toggle="modal" id="changue" >
-                                           CAMBIAR ESTADO
-                                           
-                                        </button>
                                         
                                         <div class="modal fade" data-animation="slideInOutLeft" tabindex="-1" aria-labelledby="modal-title" id="deleteUser">
                                         
@@ -88,24 +84,7 @@
                                             
                                         </div>
 
-                                        <div class="modal fade" data-animation="slideInOutLeft" tabindex="-1" aria-labelledby="modal-title" id="deleteUser">
                                         
-                                            <div class="modal-dialog">
-                                                <div class="modal-content">
-                                                
-                                                    <div class="modal-body">
-                                                        <p>¿DESEA CAMBIAR EL ESTADO?</p>
-                                                    </div>
-                                                    <div class="modal-footer">
-                                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CANCELAR</button>
-                                                        <button type="button" class="btn btn-primary">
-                                                            <a class="" {{ $item->status ? "Desactivar" : "Activar"}}>CONFIRMAR<i class="fa fa-pencil-square" aria-hidden="true"></i></a>
-                                                        </button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            
-                                        </div>
                                         
                                         
                                     </td>

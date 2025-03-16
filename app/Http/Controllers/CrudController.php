@@ -61,7 +61,7 @@ class CrudController extends Controller
     {
         $user = User::findOrFail($id);
         $user->update($request->all());
-        
+        $data->save();
         return redirect()->route('crud_get')->with('success', 'actualizado con exito');
     }
 

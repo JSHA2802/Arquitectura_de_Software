@@ -11,15 +11,15 @@
             
                     <div class="form-group">
                         <label for="nom" ></label>
-                        <input required type="text" id="fnom" name="first_name" placeholder="Nombre" class="form-control" value="{{ $user->first_name}}" >
+                        <input required type="text" id="fnom" name="name" placeholder="Nombre" class="form-control" value="{{ $user->name}}" >
                     </div>
                     <div class="form-group">
                         <label for="nom" ></label>
-                        <input required type="text" id="Lname" name="last_name" placeholder="Correo" class="form-control" value="{{ $user->last_name}}">
+                        <input required type="text" id="Lname" name="email" placeholder="Correo" class="form-control" value="{{ $user->email}}">
                     </div>
                     <div class="form-group">
                         <label for="nom" ></label>
-                        <input required type="password" id="nom" name="address" placeholder="Password" class="form-control" value="{{ $user->address}}">
+                        <input required type="password" id="nom" name="password" placeholder="Password" class="form-control" value="{{ $user->password}}">
                     </div>
                     
                     
